@@ -1,0 +1,195 @@
+#################################################
+#               ENGLISH LANG FILE               #
+#                Made by Tqmass                 #
+#             Collaborator: NoWacho             #
+#################################################
+
+# ~ TABLIST Settings
+
+LOBBY-TABLIST:
+  HEADER: |-
+    &eYou are playing &dCAPTURE THE WOOL
+  FOOTER: |-
+    &eRanks, Boosters and MORE in &f&lSTORE.SERVER.COM
+
+GAME-TABLIST:
+  HEADER: |-
+    &eEnjoy playing &dCAPTURE THE WOOL
+  FOOTER: |-
+    &eRanks, Boosters and MORE in &f&lSTORE.SERVER.COM
+
+# ~ ScoreBoard Settings
+
+SCOREBOARD-SETTINGS:
+  TEAM: '<TColor>TEAM <TName>'
+  HEALTH: '&4&l🧡'
+  WOOL:
+    PLACED: '⬛ &fPlaced'
+    STOLEN: '⚠ &fStolen &8(&f%distance%&8)'
+    SAVED: '⬜ &fSaved'
+
+LOBBY-SCOREBOARD:
+  TITLE: '&6&lCAPTURE THE WOOL'
+  LINES: |-
+    &7<date>
+    &7
+    &fNick: &3<player>
+    &fRank: <rank>
+    &fGlobal Coins: &6<gcoins> &l⛃
+    &7
+    &e&lSTATS
+    &fPoints: &3<points>
+    &fKills: &d<kills>
+    &fDeaths: &c<deaths>
+    &fWools Placed: &d<captured>
+    &fWins: &a<wins>
+    &f
+    &r    &3SERVER.COM
+
+WAITING-SCOREBOARD:
+  TITLE: '&6&lCAPTURE THE WOOL'
+  LINES: |-
+    &7<date>
+    &7
+    &fMap: &a<map>
+    &fPlayers: &b<players>&8/&7<max>
+    &7
+    &eWaiting players...
+    &7
+    &r    &3SERVER.COM
+
+STARTING-SCOREBOARD:
+  TITLE: '&6&lCAPTURE THE WOOL'
+  LINES: |-
+    &7<date>
+    &7
+    &fMap: &a<map>
+    &fPlayers: &b<players>&8/&7<max>
+    &7
+    &fStarting: &a<time>
+    &7
+    &r    &3SERVER.COM
+
+GAME-SCOREBOARD:
+  TITLE: '&6&lCAPTURE THE WOOL'
+  LINES: |-
+    &7<date>
+    &7
+    &fMap: &a<map>
+    &fTime: &7<time>
+    &7
+    &7 <T1> &7(&f<T1p>&7)
+    &7 <BLUE_WOOL>
+    &7 <CYAN_WOOL>
+    &7
+    &7 <T2> &7(&f<T2p>&7)
+    &7 <RED_WOOL>
+    &7 <PINK_WOOL>
+    &7
+    &r    &3SERVER.COM
+
+# ~ Chat Format Settings
+
+CHAT-SETTINGS:
+  GLOBAL_CHAT_PREFIX: '[GLOBAL]'
+  SPECTATOR_CHAT_PREFIX: '[SPEC]'
+  TEAM_CHAT_PREFIX: '[TEAM]'
+
+CHAT-FORMAT:
+  MAIN_LOBBY: '<rank> <player> &7&l➜ <message>'
+  GAME_SPECTATOR: '&8[<points>&8] <prefix> <rank> <player> &7&l➜ <message>'
+  GAME_TEAM: '&8[<points>&8] <prefix> <rank> <player> &7&l➜ <message>'
+  GAME_GLOBAL: '&8[<points>&8] <prefix> <player> &7&l➜ &f<message>'
+
+# ~ Title Settings
+# Configure HUB_JOIN_SERVER if you enabled JOIN_TITLE_ENABLED.
+
+TITLE-SETTINGS:
+  HUB_JOIN_SERVER:
+    TITLE: '&eWelcome <player>&e!'
+    SUBTITLE: '&eEnjoy playing capture the wool'
+
+  GAME_CANCEL_PLAYERS:
+    TITLE: '&c&lCANCELED!'
+    SUBTITLE: '&eThe players left the game...'
+  GAME_JOIN_BLUE:
+    TITLE: '&9&lBLUE TEAM'
+    SUBTITLE: '<tenemy> &7is your &fenemy!'
+  GAME_JOIN_RED:
+    TITLE: '&c&lRED TEAM'
+    SUBTITLE: '<tenemy> &7is your &fenemy!'
+
+  BLUE_WOOL_STOLEN:
+    TITLE: ''
+    SUBTITLE: '<player> &ehas stolen <wool>&e!'
+  CYAN_WOOL_STOLEN:
+    TITLE: ''
+    SUBTITLE: '<player> &ehas stolen <wool>&e!'
+  RED_WOOL_STOLEN:
+    TITLE: ''
+    SUBTITLE: '<player> &ehas stolen <wool>&e!'
+  PINK_WOOL_STOLEN:
+    TITLE: ''
+    SUBTITLE: '<player> &ehas stolen <wool>&e!'
+
+  DOUBLE_BLUE_WOOL_PLACED:
+    TITLE: '&6&lDOUBLE!'
+    SUBTITLE: '<player> &eplaced the &1&lBLUE &eand &3&lCYAN &eWOOL!'
+  DOUBLE_RED_WOOL_PLACED:
+    TITLE: '&6&lDOUBLE!'
+    SUBTITLE: '<player> &eplaced the &c&lRED &eand &d&lPINK &eWOOL!'
+  BLUE_WOOL_PLACED:
+    TITLE: ''
+    SUBTITLE: '<player> &eplaced the &1&lBLUE WOOL&e!'
+  CYAN_WOOL_PLACED:
+    TITLE: ''
+    SUBTITLE: '<player> &eplaced the &3&lCYAN WOOL&e!'
+  RED_WOOL_PLACED:
+    TITLE: ''
+    SUBTITLE: '<player> &eplaced the &c&lRED WOOL&e!'
+  PINK_WOOL_PLACED:
+    TITLE: ''
+    SUBTITLE: '<player> &eplaced the &d&lPINK WOOL&e!'
+
+  BLUE_TEAM_VICTORY:
+    TITLE: '&e&lVICTORY!'
+    SUBTITLE: '&aCongratulations!'
+  RED_TEAM_VICTORY:
+    TITLE: '&e&lVICTORY'
+    SUBTITLE: '&aCongratulations!'
+
+  BLUE_TEAM_LOSE:
+    TITLE: '&c&lDEFEAT!'
+    SUBTITLE: '&c&lRED TEAM &fHAS &eWON&f!'
+  RED_TEAM_LOSE:
+    TITLE: '&c&lDEFEAT!'
+    SUBTITLE: '&9&lBLUE TEAM &fHAS &eWON&f!'
+
+  NEXT_MAP:
+    TITLE: '&eNext map: &a<map>'
+    SUBTITLE: '&fThe map will change in: &d<time>'
+  COUNT_DOWN_PROGRESS:
+    TITLE: ''
+    SUBTITLE: '&fStarting in: &e<countdown>'
+  COUNT_LAST_5_SECONDS:
+    TITLE: '&e<countdown>'
+    SUBTITLE: ''
+
+  DOUBLE_KILL:
+    TITLE: ''
+    SUBTITLE: '&a&lDOUBLE KILL!'
+  TRIPLE_KILL:
+    TITLE: ''
+    SUBTITLE: '&e&lTRIPLE KILL!'
+  QUADRA_KILL:
+    TITLE: ''
+    SUBTITLE: '&d&lQUADRA KILL!'
+  PENTAKILL:
+    TITLE: ''
+    SUBTITLE: '&5&lP&d&lE&6&lN&e&lT&a&lA&2&lK&c&lI&4&lL&f&lL&0&l!'
+  KILLING_SPREE:
+    TITLE: ''
+    SUBTITLE: '&6&lK&e&lI&a&lL&2&lL&b&lI&3&lN&9&lG &f&lS&7&lP&8&lR&d&lE&5&lE&0&l!'
+  UNSTOPPABLE:
+    TITLE: ''
+    SUBTITLE: '&8&lU&7&lN&f&lS&e&lT&6&lO&a&lP&2&lP&3&lA&b&lB&9&lL&c&lE&4&l!'

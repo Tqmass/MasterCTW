@@ -1,0 +1,5 @@
+name: MasterCTW
+version: '1.1'
+main: dev.tqmass.ctw.MasterCTW
+authors: [Tqmass]
+description: CTW Remastered by Tqmass

@@ -1,0 +1,22 @@
+name: MasterCTW
+version: '${project.version}'
+main: dev.tqmass.ctw.MasterCTW
+authors: [Tqmass]
+description: CTW Minigame by Tqmass
+softdepend: [PlaceHolderAPI, LuckPerms]
+depend: [WorldEdit, Vault, ProtocolLib, EffectLib]
+commands:
+  setup:
+  join:
+    aliases: [jugar, entrar]
+  leave:
+    aliases: [salir, abandonar]
+  global:
+    aliases: [g, gl]
+  stats:
+  shop:
+    aliases: [kit]
+  changeteam:
+    aliases: [teamchange, tm]
+  nextmap:
+    aliases: [mapnext, nm]
